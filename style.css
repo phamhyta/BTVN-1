@@ -1,0 +1,129 @@
+body{
+    font-family: Tahoma;
+    font-size:  13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top{
+    background-color: rgb(5, 63, 3);
+    height: 40px;
+}
+#banner{
+    height: 280px;
+    width: 1000px;
+}
+#main #left {
+    width: 700px;
+    float: left;
+    min-height: 400px;
+}
+#main #right {
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+#footer {
+    background-color: #000;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: #FFF;
+    clear: left;
+    line-height: 60px;
+}
+#picture {
+    width: 300px;
+    float: left;
+    min-height: 400px;
+    margin-top: 30px;
+}
+#footer a {
+    color: violet;
+}
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px ;
+    border-right: 1px solid #ccc;
+
+}
+#menu_top ul li a:hover{
+    color: yellow;
+    background: gray;
+}
+#menu_top ul li a.active {
+    background-color: #1949b5;
+}
+#main #left ul {
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h2 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+#main #left ul li h2:hover {
+    color: gray;
+}
+#main {
+    margin-top: 10px;
+}
+#main #right .menu_right ul {
+    margin: -15px 5px 0px 5px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+#main #right .menu_right img {
+    padding: 10px 10px 3px 10px;
+    float: left;
+}
+#main #right .menu_right ul li {
+    list-style: none;
+}
+#main #right .menu_right ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 15px;
+    color: #878787;
+}
+#main #right .menu_right h3 {
+    background: #195d58 ;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    text-indent: 0px;
+}
+#main #right .menu_right ul li a:hover{
+    color: orange;
+    background: wheat;
+}
+
+
